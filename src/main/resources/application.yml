@@ -1,0 +1,17 @@
+#spring.application.name=HotelService
+spring:
+  application:
+    name: HotelService
+  datasource:
+    username: root
+    password: password
+    url: jdbc:postgresql://localhost:5432/hotel_db
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+server:
+  port: 8082
